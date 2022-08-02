@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgb(209, 224, 216),rgb(255, 253, 250));
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* top part style here */
+.color-orange{
+    color: rgb(255, 177, 88);
+}
+.top-part{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+   
+}
+
+.half-width img{
+  width: 90%;
+}
+
+.link-button{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-image: linear-gradient(black, seagreen);
+    border: none;
+    border-radius: 10px;
+}
+
+.link-button a{
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+    font-weight: 700;
+}
+
+/* my mission part style here */
+
+.three-part{
+    display: flex;
+  margin-bottom: 150px;
+}
+
+.partial-part{
+    width: 50%;
+    margin: 0px 35px;
+}
+.partial-part img{
+    width: 50%;
+}
+.partial-part h2{
+    text-align: center;
+}
+.partial-part p{
+    text-align: justify;
+    padding: 15px;
+}
+#partial-part1{
+    background-image: linear-gradient(rgb(186, 228, 228),rgb(45, 255, 255));
+    border-radius: 15px;
+}
+
+#partial-part2{
+    background-image: linear-gradient(pink,rgb(238, 213, 165));
+    border-radius: 15px;
+}
+#partial-part3{
+    background-image: linear-gradient(seagreen,skyblue);
+    border-radius: 15px;
+}
+
+/* develop part style here */
+.develop-part{
+    display: flex;
+    background-image: url(/images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+
+}
+
+.half-width2{
+    width: 50%;
+    
+}
+.half-width2 img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+/* global part style here */
+.global-part{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-global{
+    width: 50%;
+}
+
+.half-global img{
+    width: 65%;
+    padding-left: 60px;
+}
+
+/* My contact info style here */
+.contact-info{
+    margin-bottom: 100px;
+}
+.contact-info h2, p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.social-link{
+    text-align: center;
+    display: flex;
+    margin-left: 410px;
+    margin-right: 400px;
+    box-shadow: 0  0 4px 0,0 0 12px 0 ;
+    padding-bottom: 70px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(227, 245, 245),rgb(248, 252, 250));
+}
+.social-link a{
+    text-decoration: none;
+  color:darkcyan;
+}
+.social-button{
+ padding-top: 70px;
+ padding-left: 40px;
+ 
+}
+
+/* footer style here */
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(black, seagreen);
+    color: bisque;
+    padding-top: 60px;
+    font-family:cursive ;
+}
